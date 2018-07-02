@@ -1,0 +1,112 @@
+
+$body-bg: #111111;
+$body-color: #a3b8cc;
+
+$white: #ffffff;
+$black: #000000;
+
+$primary: #22476b;
+$secondary: #996600;
+$success: #99ccff;
+$info: #3399ff;
+$warning: #bbbbbb;
+$danger: #ff0000;
+$light: #ffeecc;
+$dark: #003366;
+
+$headings-color: $white;
+
+$dropdown-bg: $primary;
+$dropdown-link-color: #cce6ff;
+$dropdown-link-hover-bg: #0080ff;
+$dropdown-link-hover-color: #cce6ff;
+
+$font-family-sans-serif: "Source Sans Pro", Arial, sans-serif;
+
+$jumbotron-bg: $black;
+
+$card-bg: $jumbotron-bg;
+
+$list-group-bg: $card-bg;
+$list-group-hover-bg: $dark;
+
+$popover-bg: $card-bg;
+$popover-header-bg: $primary;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+table {
+  color: #fff;
+}
+
+.table {
+
+  .thead-dark th {
+    color: $white;
+  }
+  
+  &-primary {
+    &, > th, > td {
+      background-color: $primary;
+    }
+  }
+  
+  &-secondary {
+    &, > th, > td {
+      background-color: $secondary;
+    }
+  }
+
+  &-success {
+    &, > th, > td {
+      background-color: $success;
+    }
+  }
+
+  &-info {
+    &, > th, > td {
+      background-color: $info;
+    }
+  }
+
+  &-danger {
+    &, > th, > td {
+      background-color: $danger;
+    }
+  }
+
+  &-warning {
+    &, > th, > td {
+      background-color: $warning;
+    }
+  }
+
+  &-hover {
+
+    .table-success:hover {
+      &, > th, > td {
+        background-color: darken($success, 5%);
+      }
+    }
+
+    .table-info:hover {
+      &, > th, > td {
+        background-color: darken($info, 5%);
+      }
+    }
+
+    .table-danger:hover {
+      &, > th, > td {
+        background-color: darken($danger, 5%);
+      }
+    }
+
+    .table-warning:hover {
+      &, > th, > td {
+        background-color: darken($warning, 5%);
+      }
+    }
+
+  }
+}

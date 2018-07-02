@@ -1,0 +1,29 @@
+
+
+$body-bg: #ffc0cb;
+$body-color: #000044;
+
+// twilight sparkle
+$primary: #ba55d3;
+// rarity
+$secondary: #ffffff;
+// pinkiepie
+$success: #f660ab;
+// rainbow dash
+$info: #add8e6;
+// fluttershy
+$warning: #ffff66;
+// applejack
+$danger: #ff5c00;
+// celestia
+$light: #d8bfd8;
+// nightmare moon
+$dark: #4b0082;
+
+$white: $light;
+$black: $dark;
+
+$font-family-sans-serif: "Comic Sans MS", sans-serif;
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";

@@ -1,0 +1,110 @@
+// Imperial
+
+$body-bg: #0e001a;
+$body-color: #ccccff;
+
+$white: #ffffff;
+
+$primary: #003399;
+$secondary: #ff5500;
+$success: #02e9d9;
+$info: #6c3dd6;
+$warning: #c571ff;
+$danger: #ffda83;
+$light: #ffffff;
+$dark: #a200ff;
+
+$headings-color: #fff;
+
+$font-family-sans-serif: Arial, sans-serif;
+
+$dropdown-bg: #220066;
+$dropdown-link-color: $body-color;
+$dropdown-link-hover-bg: #aa00ff;
+
+$jumbotron-bg: #0800ff;
+
+$card-bg: #4f93b6;
+
+$list-group-bg: $card-bg;
+$list-group-hover-bg: #00d8ff;
+
+$popover-bg: $card-bg;
+$popover-header-bg: $primary;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+table {
+  color: #fff;
+}
+
+.table {
+
+  .thead-dark th {
+    color: $white;
+  }
+  
+  &-primary {
+    &, > th, > td {
+      background-color: $primary;
+    }
+  }
+  
+  &-secondary {
+    &, > th, > td {
+      background-color: $secondary;
+    }
+  }
+
+  &-success {
+    &, > th, > td {
+      background-color: $success;
+    }
+  }
+
+  &-info {
+    &, > th, > td {
+      background-color: $info;
+    }
+  }
+
+  &-danger {
+    &, > th, > td {
+      background-color: $danger;
+    }
+  }
+
+  &-warning {
+    &, > th, > td {
+      background-color: $warning;
+    }
+  }
+
+  &-hover {
+
+    .table-success:hover {
+      &, > th, > td {
+        background-color: darken($success, 5%);
+      }
+    }
+
+    .table-info:hover {
+      &, > th, > td {
+        background-color: darken($info, 5%);
+      }
+    }
+
+    .table-danger:hover {
+      &, > th, > td {
+        background-color: darken($danger, 5%);
+      }
+    }
+
+    .table-warning:hover {
+      &, > th, > td {
+        background-color: darken($warning, 5%);
+      }
+    }
+
+  }
+}

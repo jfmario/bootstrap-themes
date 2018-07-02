@@ -1,0 +1,19 @@
+
+// Minecraft
+
+$primary: #36b030;
+$secondary: #757575;
+$info: #996a41;
+$warning: #5a381e;
+$danger: #ff0000;
+$dark: #313131;
+
+$font-family-sans-serif: "Noto Sans", sans-serif;
+
+$dropdown-link-hover-color: #ffffff;
+$dropdown-link-hover-bg: $dark;
+
+// make everything more blockish
+$enable-rounded: false;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";

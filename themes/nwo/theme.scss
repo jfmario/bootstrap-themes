@@ -1,0 +1,31 @@
+// New World Order
+
+$white: #ffffff;
+
+$body-bg: #f6f6f6;
+$body-color: #333333;
+
+$primary: #2f3543;
+$secondary: #ff9c30;
+$success: #00c6ff;
+$info: #00a5e2;
+$warning: #1a325e;
+$danger: #ffc466;
+
+$light: #ffffff;
+$dark: #333333;
+
+$headings-font-family: impact, sans-serif;
+
+$dropdown-bg: $primary;
+$dropdown-link-color: $body-bg;
+$dropdown-link-hover-color: $white;
+$dropdown-link-hover-bg: #39455d;
+
+$enable-rounded: false;
+
+$font-family-sans-serif: "Century Gothic", Arial, sans-serif;
+
+$link-hover-color: #000000;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";

@@ -1,0 +1,33 @@
+// Earthen
+
+$body-bg: #5c4033;
+$body-color: #a99877;
+
+$white: #fff;
+
+$primary: #b9b9d3;
+$secondary: #8c1717;
+$success: #00aeff;
+$info: #00ff7f;
+$warning: #1ba683;
+$danger: #b93a27;
+
+$light: #f3aa55;
+$dark: #000000;
+
+$dropdown-bg: $body-bg;
+$dropdown-link-hover-bg: $secondary;
+$dropdown-link-hover-color: $white;
+
+$headings-color: #f3e6d0;
+$headings-font-family: "Palatino Linotype", "Times", serif;
+
+$font-family-sans-serif: Arial, sans-serif;
+
+$jumbotron-bg: $secondary;
+
+$card-bg: $jumbotron-bg;
+
+$list-group-bg: $card-bg;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
