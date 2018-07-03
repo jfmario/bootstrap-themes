@@ -4,12 +4,12 @@
     
     <meta charset="utf-8">
     
-    <title>Theme: {{ theme.name }}</title>
+    <title>Theme: New World Order</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     
-    <link rel="stylesheet" href="./{{ theme.slug }}.css">
+    <link rel="stylesheet" href="./nwo.css">
   
   </head>
   <body>
@@ -29,9 +29,25 @@
                 
                 <div class="dropdown-divider"></div>
                 
-                {% for t in themes %}
-                  <a class="dropdown-item" href="/{{ t.slug }}/">{{ t.name }}</a>
-                {% endfor %}
+                
+                  <a class="dropdown-item" href="/default/">Default</a>
+                
+                  <a class="dropdown-item" href="/earthen/">Earthen</a>
+                
+                  <a class="dropdown-item" href="/equestria/">Equestria</a>
+                
+                  <a class="dropdown-item" href="/fantasy/">Fantasy</a>
+                
+                  <a class="dropdown-item" href="/galactic/">Galactic</a>
+                
+                  <a class="dropdown-item" href="/imperial/">Imperial</a>
+                
+                  <a class="dropdown-item" href="/minecraft/">Minecraft</a>
+                
+                  <a class="dropdown-item" href="/nwo/">New World Order</a>
+                
+                  <a class="dropdown-item" href="/tribal/">Tribal</a>
+                
               </div>
             </li>
           </ul>
@@ -58,8 +74,8 @@
       <div class="page-header" id="banner">
         <div class="row">
           <div class="col-lg-8 col-md-7 col-sm-6">
-            <h1>{{ theme.name }}</h1>
-            <p class="lead">{{ theme.description }}</p>
+            <h1>New World Order</h1>
+            <p class="lead">Everyone is a consumer now.</p>
           </div>
           <div class="col-lg-4 col-md-5 col-sm-6">
           </div>

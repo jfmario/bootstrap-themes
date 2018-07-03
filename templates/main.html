@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    
+    <title>Bootstrap Themes</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <link rel="stylesheet" href="./default/default.css">
+  
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-3">Bootstrap Themes</h1>
+        <p class="lead">
+          Taking after the great <a href="http://bootswatch.com" target="_blank">Bootswatch</a> idea,
+          I made a few of my own Bootstrap CSS themes.
+        </p>
+        <hr class="my-4">
+        <p>Each can be seen below.</p>
+      </div>
+      <div class="row">
+        {% for theme in themes %}
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                
+                <h4 class="card-title">
+                  <a href="./{{ theme.slug }}/">{{ theme.name }}</a>
+                </h4>
+                
+                <img style="width: 100%; display: block;" src="./{{ theme.slug }}/img.jpg" />
+  
+                <p class="card-text">{{ theme.description }}</p>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    
+    
+    
+  </body>
+</html>

@@ -5,6 +5,7 @@
 * Copy dist bootstrap and jquery to dist/js/<name>/ (cp -r node_modules/bootstrap/dist/ dist/js/bootstrap/)
 * Global sass install
 * Make templates/theme.html
+* Make templates/main.html
 * Create empty theme
 * Write index.js
 * Global http-server install

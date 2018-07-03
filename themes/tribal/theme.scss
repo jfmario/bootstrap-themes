@@ -1,36 +1,30 @@
-// Galactic
-
-
-$body-bg: #111111;
-$body-color: #a3b8cc;
+// tribal
 
 $white: #ffffff;
 $black: #000000;
 
-$primary: #22476b;
-$secondary: #996600;
-$success: #99ccff;
-$info: #3399ff;
-$warning: #bbbbbb;
-$danger: #ff0000;
-$light: #ffeecc;
-$dark: #003366;
+$body-bg: #855e42;
+$body-color: #ebdec2;
 
-$headings-color: $white;
+$primary: #211510;
+$secondary: #b06601;
+$success: #00dd00;
+$info: #f7b10a;
+$warning: #9f1600;
+$danger: #ea3012;
 
-$dropdown-bg: $primary;
-$dropdown-link-color: #cce6ff;
-$dropdown-link-hover-bg: #0080ff;
-$dropdown-link-hover-color: #cce6ff;
+$light: #999999;
+$dark: $black;
 
-$font-family-sans-serif: "Source Sans Pro", Arial, sans-serif;
+$font-family-sans-serif: "Open Sans", Helvetica, Arial, sans-serif;
 
-$jumbotron-bg: $black;
+// $headings-color: $info;
+
+$jumbotron-bg: $secondary;
 
 $card-bg: $jumbotron-bg;
 
 $list-group-bg: $card-bg;
-$list-group-hover-bg: $dark;
 
 $popover-bg: $card-bg;
 $popover-header-bg: $primary;
@@ -112,3 +106,4 @@ table {
 
   }
 }
+

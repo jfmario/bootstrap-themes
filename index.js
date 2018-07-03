@@ -38,6 +38,14 @@ function main() {
     );
   }
   
+  fs.writeFileSync(
+    path.resolve(__dirname, 'dist', 'index.html'),
+    nunjucks.renderString(
+      fs.readFileSync(path.resolve(__dirname, 'templates', 'main.html')).toString(),
+      { themes: themes }
+    )
+  );
+  
   console.log(themes);
 }
 

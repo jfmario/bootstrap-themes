@@ -30,4 +30,7 @@ $card-bg: $jumbotron-bg;
 
 $list-group-bg: $card-bg;
 
+$popover-bg: $card-bg;
+$popover-header-bg: $primary;
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
